@@ -10,10 +10,10 @@ export default function Pokemon({ image, name, types, weight, height }) {
         <h2>{name}</h2>
         <img src={image} alt={name} />
         <ul>
-          <p>{types}</p>{" "}
+          <p><strong>{types}</strong></p>{" "}
         </ul>
-        <p>Weight: {weight}</p>
-        <p>Height: {height}</p>
+        <p><strong>Weight: {weight} lbs</strong></p>
+        <p><strong>Height: {height}</strong></p>
       </div>
     );
   }

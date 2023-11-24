@@ -38,7 +38,7 @@ export default function PokemonApplication() {
             });
         }}
       >
-        get pokemon data{" "}
+        Get Pokemon Data{" "}
       </button>
       {console.log(pokemonInfo.types)}
       {pokemonInfo.sprites && (
@@ -48,7 +48,7 @@ export default function PokemonApplication() {
               ? pokemonInfo.sprites.back_default
               : pokemonInfo.sprites.front_default
           }
-          name={pokemonInfo.name}
+          name={pokemonInfo.name.toUpperCase()}
           types={
             pokemonInfo.types &&
             pokemonInfo.types.map((item) => (
