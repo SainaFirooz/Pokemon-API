@@ -29,7 +29,7 @@ button {
 }
 
 button {
-  background-color: #3498db;
+  background-color: #f2a048;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -38,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: #e7ac6e;
 }
 
 .Pokemon {
@@ -107,19 +107,25 @@ li {
 }
 
 p {
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 div {
   background: #f6dec4;
   padding: 20px;
+
+
+  
 }
 
 .App {
   background: rgba(241, 196, 149, 0.583);
 }
+
 * {
   border-radius: 10px;
   font-family: "Caveat", cursive;
   font-family: "Montserrat", sans-serif;
+  color: black;
 }
+

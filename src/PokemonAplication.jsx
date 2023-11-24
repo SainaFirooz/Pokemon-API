@@ -57,6 +57,39 @@ export default function PokemonApplication() {
           }
           weight={pokemonInfo.weight}
           height={pokemonInfo.height}
+          
+          hp={
+            pokemonInfo.stats &&
+            pokemonInfo.stats.find((stat) => stat.stat.name === "hp").base_stat
+          }
+
+          attack={
+            pokemonInfo.stats &&
+            pokemonInfo.stats.find((stat) => stat.stat.name === "attack").base_stat
+          }
+
+          specialAttack={
+            pokemonInfo.stats &&
+            pokemonInfo.stats.find((stat) => stat.stat.name === "special-attack").base_stat
+          }
+          defense={
+            pokemonInfo.stats &&
+            pokemonInfo.stats.find((stat) => stat.stat.name === "defense").base_stat
+          }
+
+
+          specialDefense={
+            pokemonInfo.stats &&
+            pokemonInfo.stats.find((stat) => stat.stat.name === "special-defense").base_stat
+          }
+
+          speed={
+            pokemonInfo.stats &&
+            pokemonInfo.stats.find((stat) => stat.stat.name === "speed").base_stat
+          }
+
+
+
         />
       )}
     </div>
